@@ -15,33 +15,40 @@
   </head>
   <body>
     <header>
-    <nav class="flex items-center justify-between container mx-auto pt-4 px-4">
-  
-  <!-- Logo Section -->
-  <div class="flex-shrink-0">
-    <img src="./assets/nav-logo.png" alt="Logo" class="w-[120px] h-auto" />
-  </div>
+    <nav class="container mx-auto px-4 py-4 flex flex-row items-center justify-between min-w-full sm:min-w-0">
+      
+    
+      <div class="flex-shrink-0">
+        <img src="./assets/nav-logo.png" alt="Nature's Platter Logo" class="h-10 w-auto object-contain" />
+      </div>
 
-  <!-- Menu Links -->
-  <ul class="flex items-center gap-6">
-    <li><a href="#" class="hover:text-green-600 transition-colors">Products</a></li>
-    <li><a href="#" class="hover:text-green-600 transition-colors">Services</a></li>
-    <li class="whitespace-nowrap"><a href="#" class="hover:text-green-600 transition-colors">Contact us</a></li>
-  </ul>
+    
+      <ul class="flex flex-row items-center gap-6 text-sm font-medium text-gray-700">
+        <li><a href="#" class="hover:text-green-600 transition-colors">Products</a></li>
+        <li><a href="#" class="hover:text-green-600 transition-colors">Services</a></li>
+        <li class="whitespace-nowrap"><a href="#" class="hover:text-green-600 transition-colors">Contact us</a></li>
+      </ul>
 
-  <!-- Right Icons & Buttons -->
-  <div class="flex items-center gap-4">
-    <button aria-label="Search" class="p-1"><i class="fa-solid fa-magnifying-glass text-gray-700"></i></button>
-    <button aria-label="Cart" class="p-1"><i class="fa-solid fa-cart-shopping text-gray-700"></i></button>
-    <button class="rounded border border-green-500 text-green-600 px-4 py-1.5 font-medium hover:bg-green-50 transition-colors">
-      Login
-    </button>
-    <button class="rounded bg-green-500 text-white px-4 py-1.5 font-medium hover:bg-green-600 transition-colors">
-      Register
-    </button>
-  </div>
+    
+      <div class="flex flex-row items-center gap-4">
+      
+        <button aria-label="Search" class="text-gray-600 hover:text-green-600 text-lg">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <button aria-label="Cart" class="text-gray-600 hover:text-green-600 text-lg">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
 
-</nav>
+      
+        <button class="rounded-lg border border-green-500 text-green-600 px-4 py-1.5 text-sm font-medium hover:bg-green-50 transition-colors">
+          Login
+        </button>
+        <button class="rounded-lg bg-green-500 text-white px-4 py-1.5 text-sm font-medium hover:bg-green-600 transition-colors">
+          Register
+        </button>
+      </div>
+
+    </nav>
       <section
         class="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-20"
       >
