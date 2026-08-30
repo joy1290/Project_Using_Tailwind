@@ -15,26 +15,33 @@
   </head>
   <body>
     <header>
-      <nav class="grid grid-cols-3 gap-4 container mx-auto pt-4">
-        <img src="./assets/nav-logo.png" alt="" class="w-[120px] h-auto" />
+    <nav class="flex items-center justify-between container mx-auto pt-4 px-4">
+  
+  <!-- Logo Section -->
+  <div class="flex-shrink-0">
+    <img src="./assets/nav-logo.png" alt="Logo" class="w-[120px] h-auto" />
+  </div>
 
-        <ul class="flex gap-4 items-center">
-          <li><a href="">Products</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Contact us</a></li>
-        </ul>
-        <div class="flex gap-4 items-center">
-          <span><i class="fa-solid fa-magnifying-glass"></i></span>
-          <span><i class="fa-solid fa-cart-shopping"></i></span>
-          <button class="rounded border border-green-500 px-3 py-1">
-            Login
-          </button>
-          <button class="rounded bg-green-500 text-white px-3 py-1">
-            Register
-          </button>
-        </div>
-      </nav>
+  <!-- Menu Links -->
+  <ul class="flex items-center gap-6">
+    <li><a href="#" class="hover:text-green-600 transition-colors">Products</a></li>
+    <li><a href="#" class="hover:text-green-600 transition-colors">Services</a></li>
+    <li class="whitespace-nowrap"><a href="#" class="hover:text-green-600 transition-colors">Contact us</a></li>
+  </ul>
 
+  <!-- Right Icons & Buttons -->
+  <div class="flex items-center gap-4">
+    <button aria-label="Search" class="p-1"><i class="fa-solid fa-magnifying-glass text-gray-700"></i></button>
+    <button aria-label="Cart" class="p-1"><i class="fa-solid fa-cart-shopping text-gray-700"></i></button>
+    <button class="rounded border border-green-500 text-green-600 px-4 py-1.5 font-medium hover:bg-green-50 transition-colors">
+      Login
+    </button>
+    <button class="rounded bg-green-500 text-white px-4 py-1.5 font-medium hover:bg-green-600 transition-colors">
+      Register
+    </button>
+  </div>
+
+</nav>
       <section
         class="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-20"
       >
